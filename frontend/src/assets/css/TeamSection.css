@@ -1,0 +1,43 @@
+.team-section {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 99;
+}
+
+.team-container {
+  display: block;
+  margin: 0 auto;
+  min-height: 70vh;
+}
+
+.team-btn {
+  width: auto;
+  margin: 0px auto 40px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .team-btn {
+    margin-top: 0;
+  }
+
+  .team-section {
+    margin: 0 auto;
+  }
+
+  .team-container {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .team-section {
+    margin: 0 auto;
+  }
+}

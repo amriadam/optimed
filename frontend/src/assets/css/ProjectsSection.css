@@ -1,0 +1,44 @@
+.projects-section {
+  width: 90%;
+  height: 100%;
+  margin: 80px auto 0 auto;
+  /* top: -20px; */
+  position: relative;
+  z-index: 99;
+}
+
+.projects-container {
+  display: flex;
+  margin: 0 auto 0 auto;
+  min-height: 70vh;
+}
+
+.projects-btn {
+  width: auto;
+  margin: 0px auto 40px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects-btn {
+    margin-top: 0;
+  }
+  
+  .projects-section {
+    margin: 40px auto;
+  }
+
+  .projects-container {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects-container {
+    display: block;
+    margin: 40px auto;
+  }
+
+  .projects-section {
+    margin: 40px auto;
+  }
+}

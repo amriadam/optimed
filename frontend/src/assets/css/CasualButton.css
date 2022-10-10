@@ -1,0 +1,24 @@
+.btn-container {
+  display: flex;
+  height: 50px;
+}
+
+.nav-btn {
+  display: block;
+  align-items: center;
+  margin: auto 0 auto auto;
+  height: 100%;
+}
+
+.icon-btn {
+  z-index: 99999;
+  display: block;
+  background-size: contain;
+  height: 100%;
+  width: auto;
+  cursor: pointer;
+  color: #ffffff;
+  background: #a527d1;
+  padding: 6px;
+  margin: 0;
+}

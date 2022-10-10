@@ -1,0 +1,45 @@
+.blog-section {
+  width: 90%;
+  height: 100%;
+  margin: 80px auto 0 auto;
+  position: relative;
+  z-index: 99;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 0 auto 0 auto;
+  min-height: 70vh;
+}
+
+.blog-btn {
+  width: auto;
+  margin: 0px auto 40px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .blog-btn {
+    margin-top: 0;
+  }
+
+  .blog-section {
+    margin: 40px auto;
+  }
+
+  .blog-container {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog-container {
+    display: block;
+    margin: 40px auto;
+  }
+
+  .blog-section {
+    margin: 40px auto;
+  }
+}

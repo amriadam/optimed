@@ -1,0 +1,13 @@
+.section-title {
+  text-transform: uppercase;
+  margin-left: 6px;
+  text-align: left;
+  /* border-left: #e1a33b solid 40px;
+  border-left-style: groove; */
+  /* padding-left: 10px; */
+  font-size: 28px;
+}
+
+.section-title span {
+  font-weight: 100;
+}

@@ -1,0 +1,57 @@
+.partnerships-section {
+  width: 90%;
+  margin: 0 auto 50px auto;
+  
+}
+
+.partnerships-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, auto);
+   
+}
+
+.part-msg {
+  display: block;
+  margin: 70px auto auto 10px;
+  font-weight: 800;
+}
+
+.part-section {
+  display: block;
+  height: 100%;
+}
+
+.desc-section {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 768px) {
+  .partnerships-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, auto);
+  }
+
+  .part-section {
+    display: block;
+    margin: auto;
+  }
+
+  .part-msg {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .desc-section {
+      padding: 10px 20px;
+  }
+  
+}
